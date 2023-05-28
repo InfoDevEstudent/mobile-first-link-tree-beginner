@@ -1,7 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    /* outline:solid 1px; */
+}
+html, body{
+    height: 100dvh;
+    
+}
+
+:root{
+    --color-bg: #FEFCF3;
+    --color-primary: #DBA39A;
+    --color-secundary: #F0DBDB;
+    --color-alt: #F5EBE0;
+}
+
+#mobile-first{
+    width: 26.875rem; /* 430px */
+    height: 100dvh;
+    background-color: var(--color-bg);
+}
+
+#container-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 1.875rem 1rem 1.875rem;
+}
+#container-logo img{
+    width: 215px;
+    height: auto;
+}
+#container-logo h1{
+    font-size: 1.5rem;
+    /* text-align: left; */
+    font-family: "Caveat", serif;
+    /* margin-top: 1rem; */
 }
