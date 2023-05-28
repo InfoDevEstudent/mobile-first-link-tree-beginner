@@ -20,7 +20,7 @@ html, body{
 }
 
 #mobile-first{
-    width: 26.875rem; /* 430px */
+    width: 100dvw; /* 430px */
     height: 100dvh;
     background-color: var(--color-bg);
 }
