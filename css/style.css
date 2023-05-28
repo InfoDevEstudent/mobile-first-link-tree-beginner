@@ -20,7 +20,7 @@ html, body{
 }
 
 #mobile-first{
-    width: 100dvw; /* 430px */
+    width: 100dvw;
     height: 100dvh;
     background-color: var(--color-bg);
 }
@@ -34,12 +34,40 @@ html, body{
     padding: 1rem 1.875rem 1rem 1.875rem;
 }
 #container-logo img{
-    width: 215px;
+    width: 18rem;
     height: auto;
 }
 #container-logo h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     /* text-align: left; */
     font-family: "Caveat", serif;
     /* margin-top: 1rem; */
+}
+
+#insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* text-align: center; */
+    height: 2rem;
+    /* color: var(--color-secundary); */
+    margin: 1rem 1.875rem 1rem 1.875rem;
+    
+}
+#insta i{
+    /* width: 2rem; */
+    /* height: 2rem; */
+    /* line-height: 2rem; */
+    padding-right: 10px;
+}
+#insta a{
+    background-color: var(--color-secundary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    /* color: var(--color-primary); */
+    /* line-height: 2rem; */
+    /* height: 100px; */
+    padding: 5px 30px;
+    border-radius: 55px;
 }
