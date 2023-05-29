@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cookie&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@
 }
 html, body{
     height: 100dvh;
-    
 }
 
 :root{
@@ -39,35 +38,28 @@ html, body{
 }
 #container-logo h1{
     font-size: 2rem;
-    /* text-align: left; */
     font-family: "Caveat", serif;
-    /* margin-top: 1rem; */
 }
 
 #insta {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
-    /* text-align: center; */
     height: 2rem;
-    /* color: var(--color-secundary); */
     margin: 1rem 1.875rem 1rem 1.875rem;
     
 }
 #insta i{
-    /* width: 2rem; */
-    /* height: 2rem; */
-    /* line-height: 2rem; */
     padding-right: 10px;
 }
 #insta a{
-    background-color: var(--color-secundary);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    /* color: var(--color-primary); */
-    /* line-height: 2rem; */
-    /* height: 100px; */
-    padding: 5px 30px;
+    background-color: var(--color-alt);
+    font-family: "Arial", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-secundary);
+    text-shadow: 1px 2px 5px #fa2302;
+    padding: 10px 40px;
     border-radius: 55px;
+    box-shadow: 1px 2px 4px #fa2302;
 }
