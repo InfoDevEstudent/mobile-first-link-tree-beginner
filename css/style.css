@@ -8,7 +8,8 @@
     /* outline:solid 1px; */
 }
 html, body{
-    height: 100dvh;
+    height: 100vh;
+    /* background-color: var(--color-primary); */
 }
 
 :root{
@@ -21,7 +22,7 @@ html, body{
 #mobile-first{
     width: 100dvw;
     height: 100dvh;
-    background-color: var(--color-bg);
+    background-color: var(--color-alt);
 }
 
 #container-logo{
