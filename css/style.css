@@ -55,7 +55,25 @@ html, body{
 #instagram a{
     font-family: "Arial", serif;
     font-size: 1.5rem;
-    /* font-weight: 400; */
+    color: var(--color-primary);
+    padding: 10px 40px;
+    border-radius: 55px;
+    box-shadow: 1px 2px 4px var(--color-primary);
+}
+#facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin: 3rem 1.875rem 1rem 1.875rem;
+    
+}
+#facebook i{
+    padding-right: 10px;
+}
+#facebook a{
+    font-family: "Arial", serif;
+    font-size: 1.5rem;
     color: var(--color-primary);
     padding: 10px 40px;
     border-radius: 55px;
@@ -75,7 +93,6 @@ html, body{
 #whatsapp a{
     font-family: "Arial", serif;
     font-size: 1.5rem;
-    /* font-weight: 400; */
     color: var(--color-primary);
     padding: 10px 40px;
     border-radius: 55px;
