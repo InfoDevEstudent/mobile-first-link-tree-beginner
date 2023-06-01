@@ -22,7 +22,7 @@ html, body{
 #mobile-first{
     width: 100dvw;
     height: 100dvh;
-    background: var(--color-alt);
+    background-color: var(--color-alt);
 }
 
 #container-logo{
